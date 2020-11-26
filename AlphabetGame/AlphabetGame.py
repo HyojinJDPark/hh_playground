@@ -36,5 +36,8 @@ for index in range(5):
 print() #to add new line
 
 #Second, Input your word , if user inputs "quit!", then end this program
+##step 1. Input any words, with keyboard.
+your_word=input("input your word : ")
+print("This is your word :",your_word)
 
 #Third, Figure out wheter your input word is existed in Dictionary or not
