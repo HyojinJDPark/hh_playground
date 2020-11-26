@@ -44,9 +44,12 @@ your_word="" # initialize value
 while True :
     your_word=input("input your word : ")
     if your_word == "quit!" :
-        print("Bye")
-        exit()
-    print("This is your word :",your_word)
+        exit("Bye")
+    break
+    
+print("This is your word :",your_word)
 
 #Third, Figure out wheter your input word is existed in Dictionary or not
 ##step 1. find dictionary package "pip install PyDictionary" ref) https://pypi.org/project/PyDictionary/#description
+##step 2. import PyDictionary library
+from PyDictionary import PyDictionary
