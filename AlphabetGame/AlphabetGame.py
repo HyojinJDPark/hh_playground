@@ -37,7 +37,15 @@ print() #to add new line
 
 #Second, Input your word , if user inputs "quit!", then end this program
 ##step 1. Input any words, with keyboard.
-your_word=input("input your word : ")
-print("This is your word :",your_word)
+##step 2. make a loop until user input "quit!"
+
+your_word="" # initialize value
+
+while True :
+    your_word=input("input your word : ")
+    if your_word == "quit!" :
+        print("Bye")
+        exit()
+    print("This is your word :",your_word)
 
 #Third, Figure out wheter your input word is existed in Dictionary or not
