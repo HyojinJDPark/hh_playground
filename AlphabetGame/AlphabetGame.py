@@ -49,3 +49,4 @@ while True :
     print("This is your word :",your_word)
 
 #Third, Figure out wheter your input word is existed in Dictionary or not
+##step 1. find dictionary package "pip install PyDictionary" ref) https://pypi.org/project/PyDictionary/#description
