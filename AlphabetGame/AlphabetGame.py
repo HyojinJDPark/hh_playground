@@ -52,4 +52,8 @@ print("This is your word :",your_word)
 #Third, Figure out wheter your input word is existed in Dictionary or not
 ##step 1. find dictionary package "pip install PyDictionary" ref) https://pypi.org/project/PyDictionary/#description
 ##step 2. import PyDictionary library
+##step 3. check meaning in English Dictionary
 from PyDictionary import PyDictionary
+dictionary=PyDictionary()
+result=dictionary.meaning(your_word)
+print(result)
