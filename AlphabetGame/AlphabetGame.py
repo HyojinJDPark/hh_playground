@@ -57,3 +57,5 @@ from PyDictionary import PyDictionary
 dictionary=PyDictionary()
 result=dictionary.meaning(your_word)
 print(result)
+
+#Hyunjin is joined
