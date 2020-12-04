@@ -59,3 +59,4 @@ result=dictionary.meaning(your_word)
 print(result)
 
 #Hyunjin is joined
+#안녕
